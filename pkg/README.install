@@ -1,8 +1,8 @@
 _iconpath=usr/share/icons
 
 _gtk_icon_cache() {
-    gtk-update-icon-cache -f -t "/$_iconpath/ctlos-newaita/"
-    gtk-update-icon-cache -f -t "/$_iconpath/ctlos-newaita-dark/"
+    gtk-update-icon-cache -f -t "/$_iconpath/linpix-newaita/"
+    gtk-update-icon-cache -f -t "/$_iconpath/linpix-newaita-dark/"
 }
 
 post_install() {

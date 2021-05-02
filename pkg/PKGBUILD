@@ -1,12 +1,12 @@
-# Maintainer: Alex Creio <ctlos@protonmail.com>
+# Maintainer: Stas Fiduchi <linpix@protonmail.com>
 
-_gitname=ctlos-newaita
-pkgname=ctlos-newaita-icons
+_gitname=linpix-newaita
+pkgname=linpix-newaita-icons
 pkgver=r928.8a488ed9f
 pkgrel=1
 pkgdesc="Fork Newaita icon theme"
 arch=('i686' 'x86_64')
-url="https://github.com/ctlos/${_gitname}"
+url="https://github.com/linpix/${_gitname}"
 license=('CC BY-NC-SA 3.0')
 makedepends=('git')
 options=('!strip')
@@ -23,7 +23,7 @@ pkgver(){
 
 package() {
     install -d ${pkgdir}/usr/share/icons
-    cp -r ${_gitname}/ctlos-newaita* ${pkgdir}/usr/share/icons/
+    cp -r ${_gitname}/linpix-newaita* ${pkgdir}/usr/share/icons/
     # find ${pkgdir}/usr -type f -exec chmod 644 {} \;
     # find ${pkgdir}/usr -type d -exec chmod 755 {} \;
 }
