@@ -2,7 +2,7 @@
 
 _gitname=linpix-newaita
 pkgname=linpix-newaita-icons
-pkgver=r928.8a488ed9f
+pkgver=r930.a0377c759
 pkgrel=1
 pkgdesc="Fork Newaita icon theme"
 arch=('i686' 'x86_64')
